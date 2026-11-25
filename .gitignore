@@ -1,0 +1,28 @@
+
+# Node dependencies
+node_modules/
+backend/node_modules/
+
+# Uploaded videos
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+backend/.env
+backend/.env.*
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
